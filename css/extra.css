@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .hero-form {
     width: 70%;
     background-color: #fff;
