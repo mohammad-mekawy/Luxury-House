@@ -377,7 +377,7 @@ textarea.custom-input {
 
 #pp-nav ul li:hover a span {
   margin: 0;
-  background-color: #fcd54c;
+  background-color: #450a52;
 }
 
 #pp-nav ul li + li {
@@ -395,7 +395,7 @@ textarea.custom-input {
 }
 
 #pp-nav ul li a.active span {
-  background-color: #fcd54c;
+  background-color: #450a52;
   transition: background-color 0.3s ease;
 }
 
@@ -1485,7 +1485,7 @@ textarea.custom-input {
 }
 
 .webpage--parallax-dark #pp-nav ul li:hover a span {
-  background-color: #fcd54c;
+  background-color: #450a52;
 }
 
 .webpage--parallax-dark #pp-nav ul li a span {
@@ -1493,7 +1493,7 @@ textarea.custom-input {
 }
 
 .webpage--parallax-dark #pp-nav ul li a.active span {
-  background-color: #fcd54c;
+  background-color: #450a52;
 }
 
 .webpage__about-section, .webpage__services-section, .webpage__statistics, .webpage__latest-projects, .webpage__partners, .webpage__reviews-carousel, .webpage__latest-news, .webpage__services-provided, .webpage__about-block, .webpage__main-slider, .webpage__featured-projects, .webpage__services, .webpage__team-section, .webpage__hero {
@@ -3250,7 +3250,7 @@ textarea.custom-input {
 .card--news .card__link {
   font-size: 16px;
   font-weight: 600;
-  color: #fcd54c;
+  color: #450a52;
 }
 
 @media (min-width: 992px) {
@@ -3260,7 +3260,7 @@ textarea.custom-input {
 }
 
 .card--news .card__link svg {
-  fill: #fcd54c;
+  fill: #450a52;
   margin-left: 16px;
 }
 
@@ -5155,7 +5155,7 @@ textarea.custom-input {
   font-size: 80px;
   line-height: 90px;
   font-weight: bold;
-  color: #fcd54c;
+  color: #450a52;
   position: relative;
   text-align: left;
 }
@@ -5217,7 +5217,7 @@ textarea.custom-input {
 }
 
 .services__title span {
-  color: #fcd54c;
+  color: #450a52;
 }
 
 .services__grid {
@@ -5288,7 +5288,7 @@ textarea.custom-input {
   align-items: center;
   font-size: 16px;
   font-weight: 600;
-  color: #fcd54c;
+  color: #450a52;
   transition: opacity 0.3s ease;
 }
 
@@ -5305,7 +5305,7 @@ textarea.custom-input {
 }
 
 .services__link svg {
-  fill: #fcd54c;
+  fill: #450a52;
   margin-left: 16px;
 }
 
@@ -8176,7 +8176,7 @@ textarea.custom-input {
   font-size: 80px;
   line-height: 90px;
   font-weight: bold;
-  color: #fcd54c;
+  color: #450a52;
   position: relative;
   text-align: left;
 }
@@ -8238,7 +8238,7 @@ textarea.custom-input {
 }
 
 .services__title span {
-  color: #fcd54c;
+  color: #450a52;
 }
 
 .services__grid {
@@ -8309,7 +8309,7 @@ textarea.custom-input {
   align-items: center;
   font-size: 16px;
   font-weight: 600;
-  color: #fcd54c;
+  color: #450a52;
   transition: opacity 0.3s ease;
 }
 
@@ -8326,7 +8326,7 @@ textarea.custom-input {
 }
 
 .services__link svg {
-  fill: #fcd54c;
+  fill: #450a52;
   margin-left: 16px;
 }
 
