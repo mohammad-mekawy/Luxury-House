@@ -4,6 +4,9 @@ html{
 .hero__content{
     background-image: none;
 }
+.header__logo img{
+max-width: 180px;
+}
 .header__inner{
     background-color: #ffffffb8;
 }
@@ -221,6 +224,9 @@ footer .card{
     border: 0;
     background-color: transparent;
     color: #fff;
+}
+footer .card .under-footer-logo{
+    padding-left: 4rem;
 }
 footer .card-title{
     color: #fbc710;

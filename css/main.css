@@ -1647,6 +1647,7 @@ textarea.custom-input {
     flex-direction: row;
     transition: none;
     background-color: transparent;
+    justify-content: center;
   }
 }
 
