@@ -441,12 +441,14 @@ color: black;
       border: 0;
       padding: 5px 0;
       transition: 500ms;
+      color: #fff;
   }
   .quick-call-btn:hover{
       background-color: #fff;
+      color: #450a52;
   }
   .phone-no a{
-      color: #450a52;
+      color: #fff;
   }
 
   /* video */
