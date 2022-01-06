@@ -2056,7 +2056,7 @@ textarea.custom-input {
 
 @media (min-width: 1920px) {
   .header__inner {
-    max-width: calc(100vw - 90px);
+    max-width: 100%;
   }
 }
 
