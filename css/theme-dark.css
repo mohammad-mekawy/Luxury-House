@@ -127,13 +127,13 @@ main {
     fill: #ffffff;
   }
   .header--fixed .social__link:focus svg {
-    fill: #fbc710;
+    fill: #450a52;
   }
 }
 
 @media (min-width: 992px) and (min-width: 992px) {
   .header--fixed .social__link:hover svg, .header--fixed .social__link:focus svg {
-    fill: #fbc710;
+    fill: #450a52;
   }
 }
 
@@ -142,7 +142,7 @@ main {
 }
 
 .header--fixed .navigation__link:hover, .header--fixed .navigation__link:focus {
-  color: #fbc710;
+  color: #450a52;
 }
 
 .header--fixed .menu-toggle::before, .header--fixed .menu-toggle::after {
@@ -211,7 +211,7 @@ main {
 }
 
 .filter__item--active {
-  color: #fbc710;
+  color: #450a52;
 }
 
 .review-card__name {
@@ -240,7 +240,7 @@ main {
 }
 
 .lang-switcher__link--current {
-  color: #fbc710;
+  color: #450a52;
 }
 
 .social__link svg {
@@ -248,7 +248,7 @@ main {
 }
 
 .social__link:hover svg, .social__link:focus svg {
-  fill: #fbc710;
+  fill: #450a52;
 }
 
 .preloader {
@@ -333,12 +333,12 @@ main {
 }
 
 .card--transparent:focus {
-  border-color: #fbc710;
+  border-color: #450a52;
 }
 
 @media (min-width: 992px) {
   .card--transparent:hover, .card--transparent:focus {
-    border-color: #fbc710;
+    border-color: #450a52;
   }
   .card--transparent:hover .card__text, .card--transparent:focus .card__text {
     position: static;
@@ -385,7 +385,7 @@ main {
 
 .card--news-masonry:hover .card__content, .card--news-masonry:focus .card__content {
   transform: none;
-  border-color: #fbc710;
+  border-color: #450a52;
 }
 
 .card--news-masonry:hover .card__date, .card--news-masonry:focus .card__date {
@@ -401,11 +401,11 @@ main {
 }
 
 .card--news-masonry:hover .card__link, .card--news-masonry:focus .card__link {
-  color: #fbc710;
+  color: #450a52;
 }
 
 .card--news-masonry:hover .card__link svg, .card--news-masonry:focus .card__link svg {
-  fill: #fbc710;
+  fill: #450a52;
 }
 
 @media (min-width: 992px) {
@@ -420,11 +420,11 @@ main {
 }
 
 .card--news-masonry .card__link {
-  color: #fbc710;
+  color: #450a52;
 }
 
 .card--news-masonry .card__link svg {
-  fill: #fbc710;
+  fill: #450a52;
 }
 
 .card:hover, .card:focus {
@@ -508,7 +508,7 @@ main {
 
 @media (min-width: 992px) {
   .post-sb-page__main-pic--inner .post-sb-page__tag:hover, .post-sb-page__main-pic--inner .post-sb-page__tag:focus {
-    color: #fbc710;
+    color: #450a52;
   }
 }
 
@@ -536,7 +536,7 @@ main {
 }
 
 .post-sb-page__main-pic--inner .post-sb-page__heading span {
-  color: #fbc710;
+  color: #450a52;
 }
 
 .post-sb-page__wrapper {
@@ -602,7 +602,7 @@ main {
 
 @media (min-width: 992px) {
   .post-sb__social .social__link:hover svg, .post-sb__social .social__link:focus svg {
-    fill: #fbc710;
+    fill: #450a52;
   }
 }
 
@@ -675,10 +675,10 @@ main {
 
 @media (min-width: 992px) {
   .post-related__title a:hover, .post-related__title a:focus {
-    color: #fbc710;
+    color: #450a52;
   }
   .post-related__title a:hover svg, .post-related__title a:focus svg {
-    fill: #fbc710;
+    fill: #450a52;
   }
 }
 
@@ -853,7 +853,7 @@ main {
 
 @media (min-width: 992px) {
   .sidebar__related-post:hover .sidebar__related-post-content .title, .sidebar__related-post:focus .sidebar__related-post-content .title {
-    color: #fbc710;
+    color: #450a52;
   }
 }
 
@@ -869,7 +869,7 @@ main {
 @media (min-width: 992px) {
   .sidebar__tag-item:hover, .sidebar__tag-item:focus {
     color: #000000;
-    background-color: #fbc710;
+    background-color: #450a52;
   }
 }
 
@@ -897,7 +897,7 @@ main {
 
 @media (min-width: 768px) and (min-width: 992px) {
   .service-card--reverse .service-card__detail:hover, .service-card--reverse .service-card__detail:focus {
-    border-color: #fbc710;
+    border-color: #450a52;
   }
 }
 
@@ -977,11 +977,11 @@ main {
 }
 
 .more:hover, .more:focus {
-  color: #fbc710;
+  color: #450a52;
 }
 
 .more:hover svg, .more:focus svg {
-  fill: #fbc710;
+  fill: #450a52;
 }
 
 .single-service-block h2 {
