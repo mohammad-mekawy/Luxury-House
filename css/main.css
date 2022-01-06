@@ -3831,7 +3831,7 @@ textarea.custom-input {
   }
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .hero__text {
     max-width: 75%;
   }
@@ -3841,7 +3841,7 @@ textarea.custom-input {
   .hero__text {
     max-width: 340px;
   }
-}
+} */
 
 .hero__image {
   margin-bottom: 48px;

@@ -18,6 +18,17 @@ max-width: 180px;
     right: 200px;
 }
 }
+@media (min-width: 1200px){
+.hero__heading {
+    padding: 25px 0 80px 59px;
+    font-size: 65px;
+}
+}
+@media(min-width:992px){
+    .hero__heading,.hero__text{
+        color: #fff;
+    }
+}
 .hero-form {
     width: 70%;
     background-color: #fff;
@@ -226,7 +237,7 @@ footer .card{
     color: #fff;
 }
 footer .card .under-footer-logo{
-    padding-left: 4rem;
+    /* padding-left: 4rem; */
 }
 footer .card-title{
     color: #fbc710;
