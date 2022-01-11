@@ -1086,7 +1086,7 @@ textarea.custom-input {
   padding: 7px 0 11px 15px;
 }
 
-.logo::before {
+/* .logo::before {
   content: "";
   position: absolute;
   top: 0;
@@ -1095,7 +1095,7 @@ textarea.custom-input {
   height: 100%;
   border: solid 2px #450a52;
   border-right: none;
-}
+} */
 
 .logo::after {
   content: "";
@@ -1514,7 +1514,7 @@ textarea.custom-input {
 
 @media (min-width: 1200px) {
   .webpage__about-section, .webpage__services-section, .webpage__statistics, .webpage__latest-projects, .webpage__partners, .webpage__reviews-carousel, .webpage__latest-news, .webpage__services-provided, .webpage__about-block, .webpage__main-slider, .webpage__featured-projects, .webpage__services, .webpage__team-section, .webpage__hero {
-    margin-bottom: 210px;
+    margin-bottom: 100px;
   }
 }
 
@@ -1954,9 +1954,9 @@ textarea.custom-input {
   padding: 5px 0 8px 10px;
 }
 
-.header--fixed .logo::before, .header--fixed .logo::after {
+/* .header--fixed .logo::before, .header--fixed .logo::after {
   width: 30px;
-}
+} */
 
 .header--fixed .logo__large {
   font-size: 20px;
