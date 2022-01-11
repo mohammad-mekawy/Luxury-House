@@ -3859,12 +3859,12 @@ textarea.custom-input {
   height: auto;
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .hero__image img {
     width: 1560px;
     margin-left: calc(100% - 1560px);
   }
-}
+} */
 
 @media (min-width: 1560px) {
   .hero__image img {
