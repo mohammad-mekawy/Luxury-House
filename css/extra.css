@@ -42,6 +42,9 @@ max-width: 180px;
     padding-top: 150px;
 }
 }
+.hero__image img {
+    height: 100vh;
+}
 @media(min-width:992px){
     .hero__heading{
         color: #fff;
