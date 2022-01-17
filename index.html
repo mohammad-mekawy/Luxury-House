@@ -532,13 +532,13 @@
               >
                 interior
               </button>
-              <button
+              <!-- <button
                 class="filter__item __js_latest-projects-filter-item"
                 type="button"
                 data-filter=".__js_Majlis"
               >
                 Majlis
-              </button>
+              </button> -->
               <button
                 class="filter__item __js_latest-projects-filter-item"
                 type="button"
@@ -603,7 +603,7 @@
                     />
                   </div>
                 </a>
-                <a class="card swiper-slide __js_Majlis">
+                <!-- <a class="card swiper-slide __js_Majlis">
                   <div class="card__image">
                     <img
                       src="img/used/projects/Majlis.jpg"
@@ -635,7 +635,7 @@
                       alt=""
                     />
                   </div>
-                </a>
+                </a> -->
                 <a class="card swiper-slide __js_Bathroom">
                   <div class="card__image">
                     <img
@@ -1209,7 +1209,7 @@
     <script src="js/main.js"></script>
     <script>
       $(document).ready(function () {
-        $(".btn-call-bck").click(function () {
+        $(".btn-call-bck, .btn-call-float").click(function () {
           $(".call-overlay").fadeIn();
           $(".call-back-popup").delay(500).fadeIn();
         });
@@ -1230,9 +1230,9 @@
             $(t).fadeIn(3e3);
         });
       });
-      $(".btn-call-float").on("click", function (e) {
-        $(".call-float-div").toggleClass("call-close");
-      });
+      // $(".btn-call-float").on("click", function (e) {
+      //   $(".call-float-div").toggleClass("call-close");
+      // });
     </script>
     <!-- video -->
     <script>

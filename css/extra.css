@@ -1,9 +1,16 @@
 html{
     scroll-behavior: smooth;
 }
+body,.heading,.filter__item,.services__item-t,.services__title,.services__item-title,.review-card__name{
+    font-family: Montserrat;
+}
+.services__title{
+    color: #282d32;
+    margin-bottom: 50px;
+}
 @keyframes ripple{50%{box-shadow:0 0 0 40px rgba(244,68,56,0)}to{box-shadow:0 0 0 0 rgba(244,68,56,0)}}
 .k-ripple {
-    box-shadow: 0 0 0 0 hsl(0deg 0% 61% / 35%);
+    box-shadow: 0 0 0 0 rgba(69, 10, 82, 0.35);
     animation: ripple 3s infinite;
 }
 .hero__content{
@@ -29,7 +36,7 @@ max-width: 180px;
     font-size: 65px;
 }
 .hero__image{
-    max-height: 800px;
+    height: 100vh;
 }
 .hero__content{
     padding-top: 150px;
@@ -118,7 +125,7 @@ max-width: 180px;
     -webkit-transition: all 900ms ease;
     -ms-transition: all 900ms ease;
     -o-transition: all 900ms ease;
-    background: rgba(40, 45, 50, 0.7803921568627451);
+    background: rgba(69, 10, 82, 0.7803921568627451);
     -webkit-transition: -webkit-transform 0.5s ease;
     transition: -webkit-transform 0.4s ease;
     transition: transform 0.5s ease;
@@ -194,7 +201,7 @@ max-width: 180px;
 }
 
 .int_heading h4 {
-	color: #c6a47e;
+	color: #b1b400;
     font-size: 14px;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -534,3 +541,8 @@ color: black;
   .latest-projects{
       margin-top: 100px;
   }
+  @media (min-width: 1200px){
+.parallax .scroll-wrap {
+    padding: 115px 0 60px;
+}
+}
