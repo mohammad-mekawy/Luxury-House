@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 body,.heading,.filter__item,.services__item-t,.services__title,.services__item-title,.review-card__name{
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 .services__title{
     color: #282d32;
@@ -548,4 +548,12 @@ color: #fff;
 .parallax .scroll-wrap {
     padding: 115px 0 60px;
 }
+}
+.filter__item{
+    padding: 10px 15px;
+    transition: 500ms;
+    border: 2px solid transparent;
+}
+.filter__item--active{
+    border: 2px solid #450a52;
 }
