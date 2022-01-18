@@ -561,3 +561,16 @@ color: #fff;
     border: 2px solid #450a52;
     border-radius: 4px;
 }
+.hero__heading::before{
+    display: none;
+}
+.partners{
+    margin-bottom: 10px;
+}
+@media (min-width: 1200px){
+.hero__heading::after {
+    width: 55px;
+    left: 285px;
+    height: 40px;
+    bottom: 95px;
+}}
