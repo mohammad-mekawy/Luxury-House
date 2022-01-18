@@ -544,6 +544,9 @@ color: #fff;
   .latest-projects{
       margin-top: 100px;
   }
+  .latest-projects .card{
+      border: 0;
+  }
   @media (min-width: 1200px){
 .parallax .scroll-wrap {
     padding: 115px 0 60px;
@@ -554,6 +557,7 @@ color: #fff;
     transition: 500ms;
     border: 2px solid transparent;
 }
-.filter__item--active{
+.filter__item--active,.filter__item:hover{
     border: 2px solid #450a52;
+    border-radius: 4px;
 }
