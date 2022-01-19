@@ -65,8 +65,10 @@ color: #fff;
 }
 @media (min-width: 1200px){
 .hero__heading {
-    padding: 25px 0 80px 59px;
-    font-size: 65px;
+    padding: 0 0 80px 59px;
+    font-size: 50px;
+    transform: translateX(-170px);
+    margin-top: -40px;
 }
 .hero__image img {
     height: 100vh;
@@ -629,8 +631,8 @@ color: #fff;
 }
 @media (min-width: 1200px){
 .hero__heading::after {
-    width: 55px;
-    left: 285px;
-    height: 40px;
-    bottom: 95px;
+    width: 45px;
+    left: 290px;
+    height: 34px;
+    bottom: 85px;
 }}
