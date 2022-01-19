@@ -280,12 +280,12 @@ $(window).on('load', function() {
 				spaceBetween: 15
 			},
 			992: {
-				slidesPerView: 3,
+				slidesPerView: 2,
 				spaceBetween: 24
 			},
 			1200: {
-				slidesPerView: 4,
-				spaceBetween: 30
+				slidesPerView: 2,
+				spaceBetween: 60
 			},
 		},
 
@@ -293,6 +293,10 @@ $(window).on('load', function() {
 			el: '.swiper-pagination',
 			clickable: true
 		},
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		  },
 	});
 
 	/* 6.1 Filter carousel */
