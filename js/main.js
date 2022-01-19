@@ -253,7 +253,17 @@ $(window).on('load', function() {
 		},
 	});
 })();
-
+// kiko */
+(function(){
+	var projectsSlider = new Swiper('.__js_hero-slider', {
+		loop: true,
+		autoplay: {
+			delay: 5000,
+		  },
+		  speed: 1000,
+		  effect: 'fade',
+	});
+})();
 /* 6. Project carousel */
 (function(){
 	var mySwiper = new Swiper('.__js_projects-carousel', {

@@ -42,8 +42,6 @@
     <!-- <link rel="stylesheet" href="css/bootstrap-grid.css" /> -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- <link rel="stylesheet" href="css/revolution.css" /> -->
-    <link rel="stylesheet" href="css/owl.carousel.min.css" />
-    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
     <link rel="stylesheet" href="css/lity.min.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/extra.css" />
@@ -284,15 +282,17 @@
         <section class="webpage__hero hero" id="home">
           <div class="hero__inner">
             <div class="hero__image">
-              <div class="owl-carousel owl-theme">
-                <div class="item">
-                  <img src="img/used/banner/1.jpg" alt="" />
-                </div>
-                <div class="item">
-                  <img src="img/used/banner/2.jpg" alt="" />
-                </div>
-                <div class="item">
-                  <img src="img/used/banner/3.jpg" alt="" />
+              <div class="swiper-container __js_hero-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="img/used/banner/1.jpg" alt="" class="k-zoom" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/used/banner/2.jpg" alt="" class="k-zoom" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/used/banner/3.jpg" alt="" class="k-zoom" />
+                  </div>
                 </div>
               </div>
             </div>
@@ -1241,7 +1241,7 @@
     <script src="js/animsition.min.js"></script>
     <script src="js/animsition2.min.js"></script>
     <!-- revolution-->
-    <script src="js/revolution/jquery.themepunch.tools.min.js"></script>
+    <!-- <script src="js/revolution/jquery.themepunch.tools.min.js"></script>
     <script src="js/revolution/jquery.themepunch.revolution.min.js"></script>
     <script src="js/revolution/extensions/revolution.extension.actions.min.js"></script>
     <script src="js/revolution/extensions/revolution.extension.carousel.min.js"></script>
@@ -1252,9 +1252,7 @@
     <script src="js/revolution/extensions/revolution.extension.parallax.min.js"></script>
     <script src="js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
     <script src="js/revolution/extensions/revolution.extension.video.min.js"></script>
-    <script src="js/revolution/init.js"></script>
-    <!-- owl -->
-    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/revolution/init.js"></script> -->
     <!-- JavaScript-->
     <script src="js/main.js"></script>
     <script>
@@ -1323,14 +1321,5 @@
       }
     </script>
     <script src="js/lity.min.js"></script>
-    <script>
-      $(".owl-carousel").owlCarousel({
-        loop: true,
-        items: 1,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        autoplaySpeed: 1000,
-      });
-    </script>
   </body>
 </html>

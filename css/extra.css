@@ -68,22 +68,35 @@ color: #fff;
     padding: 25px 0 80px 59px;
     font-size: 65px;
 }
-.hero__image{
+.hero__image img {
     height: 100vh;
 }
 .hero__content{
     padding-top: 150px;
 }
 }
-.hero__image img {
-    height: 100vh;
-}
+
 @media(min-width:992px){
     .hero__heading{
         color: #fff;
         text-shadow: 0 0 20px black;
     }
 }
+/* 
+@keyframes zoominoutsinglefeatured {
+    0% {
+        transform: scale(1,1);
+    }
+    50% {
+        transform: scale(1.1,1.1);
+    }
+    100% {
+        transform: scale(1,1);
+    }
+}
+.k-zoom {
+    animation: zoominoutsinglefeatured 10s infinite ;
+} */
 .hero-form {
     width: 70%;
     background-color: #ffffffad;
