@@ -208,7 +208,7 @@ $(window).on('load', function() {
 			header.addClass(classes);
 
 			if (!header.hasClass('is-fixed')) {
-				header.css({'top': -headerHeight + 'px', 'transform': ' translateY(' + headerHeight + 'px)'}).addClass('is-fixed');
+				header.css({'top': -(headerHeight+15) + 'px', 'transform': ' translateY(' + headerHeight + 'px)'}).addClass('is-fixed');
 
 				if (!isNotStatic) {
 					body.css('padding-top', headerHeight + 'px');

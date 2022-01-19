@@ -24,16 +24,19 @@ max-width: 180px;
 }
 @media (min-width: 768px){
 .header__inner {
-    padding: 24px 5px;
+    padding: 16px 5px;
+    margin-top: 15px;
+}
+.navigation__link{
+    color: #fff;
 }
 }
 @media (min-width: 1400px){
 .header__inner {
-    padding: 24px 110px;
+    padding: 16px 110px;
 }
 }
 .navigation__link{
-    color: #fff;
     padding: 7px;
     border-radius: 15px;
 transition: 500ms;
