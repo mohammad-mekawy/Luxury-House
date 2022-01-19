@@ -295,7 +295,7 @@ $(window).on('load', function() {
 			},
 			1200: {
 				slidesPerView: 2,
-				spaceBetween: 60
+				spaceBetween: 30
 			},
 		},
 
