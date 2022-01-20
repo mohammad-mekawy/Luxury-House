@@ -687,7 +687,11 @@
                     />
                   </div>
                 </a> -->
-                <a class="card swiper-slide __js_Bathroom">
+                <a
+                  class="card swiper-slide __js_Bathroom"
+                  data-lity=""
+                  href="img/used/projects/ex1.jpg"
+                >
                   <div class="project-desc">
                     <h4 class="text-dark text-center">Landscaping</h4>
                   </div>
@@ -699,7 +703,11 @@
                     />
                   </div>
                 </a>
-                <a class="card swiper-slide __js_Bathroom">
+                <a
+                  class="card swiper-slide __js_Bathroom"
+                  data-lity=""
+                  href="img/used/projects/ex2.jpg"
+                >
                   <div class="project-desc">
                     <h4 class="text-dark text-center">Pergola</h4>
                   </div>
@@ -1064,7 +1072,7 @@
                 <input
                   required
                   id="user_phone"
-                  name="PhoneNum"
+                  name="phone"
                   maxlength="12"
                   type="tel"
                 />
@@ -1073,7 +1081,7 @@
                 <button
                   id="call_me_btn"
                   type="submit"
-                  name="sendemail2"
+                  name="sendemailCallNow"
                   class="hvr-wobble-skew"
                 >
                   Call me now
@@ -1129,7 +1137,7 @@
                 <input
                   required
                   id="calllater_tel"
-                  name="PhoneNum"
+                  name="phone"
                   maxlength="12"
                   type="tel"
                 />
@@ -1138,7 +1146,7 @@
                 <button
                   type="submit"
                   id="calllater_btn"
-                  name="sendemail3"
+                  name="sendemailCallLater"
                   class="hvr-wobble-skew"
                 >
                   Call me later
@@ -1159,7 +1167,7 @@
                 <textarea
                   required
                   id="msg_area"
-                  name="Message"
+                  name="message"
                   cols="20"
                   rows="10"
                 ></textarea>
@@ -1167,14 +1175,18 @@
               <div class="col-md-6">
                 <div class="form-group w-100">
                   <label for="leave_tel">Phone Number</label>
-                  <input required id="leave_tel" type="tel" name="PhoneNum" />
+                  <input required id="leave_tel" type="tel" name="phone" />
                 </div>
                 <div class="form-group w-100">
                   <label for="leave_email"> Your Email</label>
-                  <input required id="leave_email" type="email" name="Email" />
+                  <input required id="leave_email" type="email" name="email" />
                 </div>
                 <div class="form-group w-100 popup-submit-btn">
-                  <button id="call_bck_btn" name="sendemail4" type="submit">
+                  <button
+                    id="call_bck_btn"
+                    name="sendemailLeaveMessage"
+                    type="submit"
+                  >
                     Submit
                   </button>
                 </div>
@@ -1207,7 +1219,7 @@
             <span class="position-relative">
               <input
                 type="text"
-                name="quickNum"
+                name="phone"
                 id="telephone3"
                 class="form-control txt-call-phone swing flags mb-3"
                 minlength="8"
@@ -1219,7 +1231,7 @@
             </span>
             <input
               type="submit"
-              name="sendemail3"
+              name="sendemailQuickCall"
               class="btn-main btn-block m-t-15 quick-call-btn"
               id="quick-call-btn"
               value="Request a call back"
@@ -1319,6 +1331,11 @@
         document.getElementById("fade").style.display = "none";
         lightBoxVideo.pause();
       }
+    </script>
+    <script>
+      $(".navigation__link").on("click", function () {
+        $(".mobile-canvas__close").trigger("click");
+      });
     </script>
     <script src="js/lity.min.js"></script>
   </body>

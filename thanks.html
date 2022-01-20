@@ -34,13 +34,17 @@
     <meta name="theme-color" content="#ffffff" />
     <!-- <link rel="stylesheet" href="css/bootstrap-grid.css" /> -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/revolution.css" />
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/extra.css" />
     <title>Luxury House</title>
     <style>
       .webpage__hero {
         margin-bottom: 0;
+      }
+      @media (min-width: 992px) {
+        .thanks-heading {
+          color: #fff;
+        }
       }
     </style>
   </head>
@@ -182,10 +186,25 @@
         <div class="header__inner">
           <!-- Logo-->
           <a class="header__logo logo">
-            <span class="logo__large">Luxury </span>
-            <span class="logo__small">House</span>
+            <!-- <span class="logo__large">Luxury </span>
+            <span class="logo__small">House</span> -->
+            <img src="img/used/logo-W.png" alt="" />
           </a>
           <div class="container"></div>
+
+          <!-- Buttons-->
+          <a
+            class="header__phone pr-3 r-420 text-white"
+            href="tel:+971502982989"
+          >
+            +971 50 298 2989
+          </a>
+          <a
+            class="header__phone pr-3 r-200 text-white"
+            href="mailto:info@royalapexts.com"
+          >
+            info@royalapexts.com
+          </a>
           <!-- Burger-->
           <button class="header__menu-toggle menu-toggle" type="button">
             <span class="visually-hidden">Menu</span>
@@ -203,19 +222,19 @@
         <nav class="mobile-canvas__nav navigation">
           <ul class="navigation__list">
             <li class="navigation__item">
-              <a class="navigation__link" href="#">Home</a>
+              <a class="navigation__link" href="/#home">Home</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link animsition-link" href="#">About</a>
+              <a class="navigation__link" href="/#about">About</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link animsition-link" href="#">Projects</a>
+              <a class="navigation__link" href="/#Services">Services</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link animsition-link" href="#">News</a>
+              <a class="navigation__link" href="/#projects">Projects</a>
             </li>
             <li class="navigation__item">
-              <a class="navigation__link animsition-link" href="#">Contact</a>
+              <a class="navigation__link" href="/#contact">Contact</a>
             </li>
           </ul>
         </nav>
@@ -224,14 +243,18 @@
             >+971 50 298 2989</a
           >
           <div class="mobile-canvas__copy">
-            © 2021 <span>Luxury House </span> All Rights Reserved.
+            © 2022 <span>Luxury House </span> All Rights Reserved.
             <br />Development by
             <span><a href="happenize.ae">Happenize</a></span>
           </div>
           <!-- Social-->
           <ul class="mobile-canvas__social social">
             <li class="social__item">
-              <a class="social__link" href="#" target="_blank">
+              <a
+                class="social__link"
+                href="https://www.facebook.com/Royal-Apex-2830567146983479"
+                target="_blank"
+              >
                 <svg width="20" height="20" aria-label="facebook icon">
                   <use xlink:href="#facebook"></use>
                 </svg>
@@ -239,27 +262,15 @@
               </a>
             </li>
             <li class="social__item">
-              <a class="social__link" href="#" target="_blank">
-                <svg width="20" height="20" aria-label="twitter icon">
-                  <use xlink:href="#twitter"></use>
-                </svg>
-                <span class="visually-hidden">twitter</span>
-              </a>
-            </li>
-            <li class="social__item">
-              <a class="social__link" href="#" target="_blank">
+              <a
+                class="social__link"
+                href="https://www.instagram.com/royalapexts/"
+                target="_blank"
+              >
                 <svg width="20" height="20" aria-label="instagram icon">
                   <use xlink:href="#instagram"></use>
                 </svg>
                 <span class="visually-hidden">instagram</span>
-              </a>
-            </li>
-            <li class="social__item">
-              <a class="social__link" href="#" target="_blank">
-                <svg width="20" height="20" aria-label="linkedin-original icon">
-                  <use xlink:href="#linkedin-original"></use>
-                </svg>
-                <span class="visually-hidden">linkedin-original</span>
               </a>
             </li>
           </ul>
@@ -270,8 +281,8 @@
           <div class="hero__inner">
             <div class="hero__image">
               <img
-                src="img/picture/hero.jpg"
-                srcset="img/picture/hero@2x.jpg 2x"
+                src="img/used/banner/1.jpg"
+                srcset="img/used/banner/1.jpg"
                 width="1904"
                 height="1081"
                 alt=""
@@ -280,97 +291,79 @@
             <div class="hero__content">
               <div class="container">
                 <div class="row">
-                  <div class="col-md-6">
-                    <!-- <div class="hero__tag">Architecture</div> -->
-                    <h2 class="hero__heading heading">
-                      <span class="color-yellow">Thank You! </span> We will call
-                      you back soon.
-                    </h2>
-                  </div>
+                  <h2 class="heading thanks-heading">
+                    Thank You! <br />
+                    We will call you back soon.
+                  </h2>
                 </div>
               </div>
             </div>
           </div>
         </section>
       </main>
-      <footer class="k-footer">
+      <footer class="k-footer" id="contact">
         <div class="container">
-          <div class="row no-gutters">
+          <div class="d-md-flex">
             <div class="col-md-5">
               <div class="card mb-3">
-                <div class="row no-gutters">
-                  <div class="col-md-4">
-                    <img
-                      class="card-img mb-3"
-                      src="img/picture/avatar-paul.png"
-                      srcset="img/picture/avatar-paul@2x.png 2x"
-                      width="112"
-                      height="112"
-                      alt="footer logo"
-                    />
-                  </div>
-                  <div class="col-md-8">
-                    <div class="card-body">
-                      <h5 class="card-title">Luxury House</h5>
-                      <p class="card-text">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      </p>
-                      <a class="phone" href="tel:+971502982989"
-                        >+971 50 298 2989</a
+                <img
+                  class="card-img mb-3"
+                  src="img/used/logo-W.png"
+                  srcset="img/used/logo-W.png"
+                  alt="footer logo"
+                />
+                <div class="card-body">
+                  <h5 class="card-title text-white">
+                    Bespoke Exhibition & Kiosk Design Company
+                  </h5>
+                  <div class="under-footer-logo">
+                    <p class="card-text">
+                      Founded in 2001, Royal Apex is the best Interior Design &
+                      Fit out firm in Dubai providing luxury interior design and
+                      home decor services. We offer bespoke solutions, whether
+                      you need a classical design style from 19th Century Europe
+                      or a modern-day contemporary style.
+                      <a href="https://www.royalapexts.com/" class="text-white"
+                        ><strong>https://www.royalapexts.com</strong></a
                       >
-                      <ul class="footer__social social">
-                        <li class="social__item">
-                          <a class="social__link" href="#" target="_blank">
-                            <svg
-                              width="20"
-                              height="20"
-                              aria-label="facebook icon"
-                            >
-                              <use xlink:href="#facebook"></use>
-                            </svg>
-                            <span class="visually-hidden">facebook</span>
-                          </a>
-                        </li>
-                        <li class="social__item">
-                          <a class="social__link" href="#" target="_blank">
-                            <svg
-                              width="20"
-                              height="20"
-                              aria-label="twitter icon"
-                            >
-                              <use xlink:href="#twitter"></use>
-                            </svg>
-                            <span class="visually-hidden">twitter</span>
-                          </a>
-                        </li>
-                        <li class="social__item">
-                          <a class="social__link" href="#" target="_blank">
-                            <svg
-                              width="20"
-                              height="20"
-                              aria-label="instagram icon"
-                            >
-                              <use xlink:href="#instagram"></use>
-                            </svg>
-                            <span class="visually-hidden">instagram</span>
-                          </a>
-                        </li>
-                        <li class="social__item">
-                          <a class="social__link" href="#" target="_blank">
-                            <svg
-                              width="20"
-                              height="20"
-                              aria-label="linkedin-original icon"
-                            >
-                              <use xlink:href="#linkedin-original"></use>
-                            </svg>
-                            <span class="visually-hidden"
-                              >linkedin-original</span
-                            >
-                          </a>
-                        </li>
-                      </ul>
-                    </div>
+                    </p>
+                    <a class="phone" href="tel:+971502982989"
+                      >+971 50 298 2989</a
+                    >
+                    <ul class="footer__social social">
+                      <li class="social__item">
+                        <a
+                          class="social__link"
+                          href="https://www.facebook.com/Royal-Apex-2830567146983479"
+                          target="_blank"
+                        >
+                          <svg
+                            width="20"
+                            height="20"
+                            aria-label="facebook icon"
+                          >
+                            <use xlink:href="#facebook"></use>
+                          </svg>
+                          <span class="visually-hidden">facebook</span>
+                        </a>
+                      </li>
+                      <li class="social__item">
+                        <a
+                          class="social__link"
+                          href="https://www.instagram.com/royalapexts/"
+                          target="_blank"
+                        >
+                          <svg
+                            width="20"
+                            height="20"
+                            aria-label="instagram icon"
+                          >
+                            <use xlink:href="#instagram"></use>
+                          </svg>
+                          <span class="visually-hidden">instagram</span>
+                        </a>
+                      </li>
+                    </ul>
                   </div>
                 </div>
               </div>
@@ -421,27 +414,19 @@
               <nav class="mobile-canvas__nav navigation">
                 <ul class="navigation__list">
                   <li class="navigation__item">
-                    <a class="navigation__link" href="#">Home</a>
+                    <a class="navigation__link" href="/#home">Home</a>
                   </li>
                   <li class="navigation__item">
-                    <a class="navigation__link animsition-link" href="#"
-                      >About</a
-                    >
+                    <a class="navigation__link" href="/#about">About</a>
                   </li>
                   <li class="navigation__item">
-                    <a class="navigation__link animsition-link" href="#"
-                      >Projects</a
-                    >
+                    <a class="navigation__link" href="/#projects">Projects</a>
                   </li>
                   <li class="navigation__item">
-                    <a class="navigation__link animsition-link" href="#"
-                      >News</a
-                    >
+                    <a class="navigation__link" href="/#Services">Services</a>
                   </li>
                   <li class="navigation__item">
-                    <a class="navigation__link animsition-link" href="#"
-                      >Contact</a
-                    >
+                    <a class="navigation__link" href="/#contact">Contact</a>
                   </li>
                 </ul>
               </nav>
@@ -449,7 +434,7 @@
           </div>
         </div>
         <p class="text-center text-white pt-3 pb-2 mb-0">
-          © Luxury House. 2021 All Rights Resevered
+          © Royal Apex. 2022 All Rights Reserved
         </p>
       </footer>
       <!-- Popup thanks-->
@@ -467,19 +452,6 @@
     <script src="js/packery-mode.pkgd.min.js"></script>
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/animsition.min.js"></script>
-    <!-- revolution-->
-    <script src="js/revolution/jquery.themepunch.tools.min.js"></script>
-    <script src="js/revolution/jquery.themepunch.revolution.min.js"></script>
-    <script src="js/revolution/extensions/revolution.extension.actions.min.js"></script>
-    <script src="js/revolution/extensions/revolution.extension.carousel.min.js"></script>
-    <script src="js/revolution/extensions/revolution.extension.kenburn.min.js"></script>
-    <script src="js/revolution/extensions/revolution.extension.layeranimation.min.js"></script>
-    <script src="js/revolution/extensions/revolution.extension.migration.min.js"></script>
-    <script src="js/revolution/extensions/revolution.extension.navigation.min.js"></script>
-    <script src="js/revolution/extensions/revolution.extension.parallax.min.js"></script>
-    <script src="js/revolution/extensions/revolution.extension.slideanims.min.js"></script>
-    <script src="js/revolution/extensions/revolution.extension.video.min.js"></script>
-    <script src="js/revolution/init.js"></script>
     <!-- JavaScript-->
     <script src="js/main.js"></script>
   </body>
